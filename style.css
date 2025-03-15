@@ -1,0 +1,140 @@
+
+* {margin: 0px;}
+p {color: red;}
+h1 {color: blue;}
+.div1 {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border: 2px solid yellow;
+  border-radius: 30px;
+  margin-bottom: 50px; 
+  
+}
+
+.container {
+  display: flex;
+justify-content: center;
+  gap: 50px;
+}
+.element {
+  flex: 1;
+}
+.div2 {background-color: green;
+height: 100px;
+width: 100px;
+ border: 2px solid yellow;
+border-radius: 90%}
+
+.div3 {background-color: purple;
+height:100px;
+width: 100px;}
+
+#idtext {color: green;}
+
+.mainTitle { 
+display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-family: 'Sigmar'; 
+}
+
+.mainTitleBlock { 
+
+width: 100vw; 
+height: 50vh; 
+display: flex; 
+align-items: center; 
+justify-content: center;   
+border: 2.5px solid black;   
+  background-image: url(https://images.unsplash.com/photo-1498429089284-41f8cf3ffd39?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eW9zZW1pdGV8ZW58MHx8MHx8fDA%3D); 
+ 
+  background-size: cover;
+  background-posistion: bottom; 
+  background-repeat: no-repeat; 
+
+}
+
+.mainTitleBlock2 { 
+
+width: 100vw; 
+height: 50vh; 
+display: flex; 
+align-items: center; 
+justify-content: center;   
+border: 2.5px solid black;   
+  background-color: white; 
+}
+
+.mainTitleBlock2:hover
+{width: 100vw; 
+height: 50vh; 
+display: flex; 
+align-items: center; 
+justify-content: center;   
+border: 5.5px solid white;  
+background-color: green;   
+  }
+
+.mainTitleBlock:hover { 
+  
+width: 100vw; 
+height: 50vh; 
+display: flex; 
+align-items: center; 
+justify-content: center;   
+border: 5.5px solid white;  
+background-color: green;   
+  
+
+}
+
+a:hover { 
+  color: green; 
+}
+
+a:visited { 
+color: red; 
+}
+
+.div1 {
+  
+  display:flex; 
+  align-items: center; 
+  justify-content: center; 
+  
+  
+}
+
+.div2 {
+  
+  display:flex; 
+  align-items: center; 
+  justify-content: center; 
+  
+}
+  
+  
+  
+
+.div3 { 
+display:flex; 
+align-items: center; 
+justify-content: center;   
+}
+
+img { width: 200px; }
+
+.gallery { 
+ gap: 30px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
