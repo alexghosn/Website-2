@@ -37,6 +37,7 @@ display: flex;
   justify-content: center; 
   align-items: center; 
   font-family: 'Sigmar'; 
+  font-size: 2rem;
 }
 
 .mainTitleBlock { 
@@ -137,4 +138,22 @@ img { width: 200px; }
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 600px) {
+ .mainTitle {font-size: 3rem ;}
+}
+
+
+@media (min-width: 900px) { 
+
+  .mainTitle {font-size: 5rem ;}
+}
+
+@media (max-width: 300px) { 
+.mainTitle {font-size: 1.5rem ;}
+}
+
+@media (orientation: landscape) { 
+  .mainTitle {color: yellow}
 }
