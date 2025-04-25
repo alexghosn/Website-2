@@ -1,7 +1,27 @@
 
-* {margin: 0px;}
+* {margin: 0px;
+}
 p {color: red;}
-h1 {color: blue;}
+h1 {color: black;}
+
+
+h1 a:link {
+  color: black
+  }
+  
+h1 a:visited {
+  color: grey;
+  }
+  
+h1 a:hover {
+  color: white;
+  }
+  
+h1 a:active {
+  color: red;
+  }
+  
+
 .div1 {
   background-color: black;
   height: 100px;
@@ -14,10 +34,47 @@ h1 {color: blue;}
   
 }
 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
 .container {
   display: flex;
 justify-content: center;
   gap: 50px;
+  font-family: "Special Gothic Expanded One", sans-serif;
+            font-weight: 400;
+            font-style: normal; 
 }
 .element {
   flex: 1;
@@ -34,71 +91,143 @@ width: 100px;}
 
 #idtext {color: green;}
 
-.mainTitle { 
-display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  font-family: 'Sigmar'; 
-  font-size: 2rem;
-}
+
 
 .mainTitleBlock { 
 
 width: 100vw; 
-height: 50vh; 
+height: 10vh; 
 display: flex; 
 align-items: center; 
 justify-content: center;   
 border: 2.5px solid black;   
-  background-image: url(https://images.unsplash.com/photo-1498429089284-41f8cf3ffd39?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eW9zZW1pdGV8ZW58MHx8MHx8fDA%3D); 
- 
-  background-size: cover;
-  background-posistion: bottom; 
-  background-repeat: no-repeat; 
-
+  background-color: yellow; 
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  
 }
+
+.mainTitleBlock:hover
+{width: 100vw; 
+height: 10vh; 
+display: flex; 
+align-items: center; 
+justify-content: center;     
+background-color: green;
+   
+  }
 
 .mainTitleBlock2 { 
 
 width: 100vw; 
-height: 50vh; 
+height: 10vh; 
 display: flex; 
 align-items: center; 
 justify-content: center;   
 border: 2.5px solid black;   
-  background-color: white; 
+  background-color: yellow; 
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .mainTitleBlock2:hover
 {width: 100vw; 
-height: 50vh; 
+height: 10vh; 
 display: flex; 
 align-items: center; 
-justify-content: center;   
-border: 5.5px solid white;  
+justify-content: center;     
 background-color: green;   
   }
 
 .mainTitleBlock:hover { 
   
 width: 100vw; 
-height: 50vh; 
+height: 10vh; 
 display: flex; 
 align-items: center; 
-justify-content: center;   
-border: 5.5px solid white;  
+justify-content: center;     
 background-color: green;   
   
 
 }
 
-a:hover { 
-  color: green; 
-}
+.mainTitleBlock3 { 
 
-a:visited { 
-color: red; 
-}
+  width: 100vw; 
+  height: 10vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;   
+  border: 2.5px solid black;   
+    background-color: yellow;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+  }
+  
+  .mainTitleBlock3:hover
+  {width: 100vw; 
+  height: 10vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;     
+  background-color: green;   
+    }
+
+    .mainTitleBlock4 { 
+
+      width: 100vw; 
+      height: 10vh; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center;   
+      border: 2.5px solid black;   
+        background-color: yellow; 
+        font-family: "Special Gothic Expanded One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .mainTitleBlock4:hover
+      {width: 100vw; 
+      height: 10vh; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center;     
+      background-color: green; 
+        
+        }
+        .mainTitleBlock5 { 
+
+          width: 100vw; 
+          height: 10vh; 
+          display: flex; 
+          align-items: center; 
+          justify-content: center;   
+          border: 2.5px solid black;   
+            background-color: yellow;
+            font-family: "Special Gothic Expanded One", sans-serif;
+            font-weight: 400;
+            font-style: normal; 
+            margin-bottom: 20px;
+          }
+          
+          .mainTitleBlock5:hover
+          {width: 100vw; 
+          height: 10vh; 
+          display: flex; 
+          align-items: center; 
+          justify-content: center;     
+          background-color: green; 
+           
+          
+            }
+
+
+
 
 .div1 {
   
@@ -128,19 +257,35 @@ justify-content: center;
 
 img { width: 200px; }
 
-.gallery { 
- gap: 30px;
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  flex-wrap: wrap;
-}
+
 
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+margin-bottom: 20px;}
+
+.gallery { 
+margin-top: 20px;
+margin-bottom: 20px;
+  gap: 50px;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   flex-wrap: wrap;
+   
+ }
+
+ .video {
+  margin-bottom: 20px;;
+ }
+
+ .video2 {
+  margin-bottom: 20px;
+ }
 
 @media (min-width: 600px) {
  .mainTitle {font-size: 3rem ;}
