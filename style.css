@@ -308,17 +308,7 @@ margin-bottom: 20px;
    
  }
 
- .video {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
- }
 
- .video2 {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
- }
 
  .footer2 {
   display:flex;
@@ -358,3 +348,8 @@ color: black;
   }
 
 
+
+  .videoGallery { 
+    display: flex;
+    justify-content: center;
+  }
